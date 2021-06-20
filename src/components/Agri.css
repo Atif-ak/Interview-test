@@ -1,0 +1,97 @@
+.states{
+    height:6vh;
+    width:80vw;
+    display:flex;
+    font-size:larger;
+    float: right;
+    text-align:center;
+    color: white;
+    margin-top:2%;      
+}
+.agri{
+    margin-left: 3%;
+    width:80vw;
+    display:flex;
+    flex-direction:column;
+}
+.pend{
+    width: 150px;
+    height:64px;
+    border: 1px solid black;
+    background-color: #595959;   
+}
+.exec{
+    width: 150px;
+    height:64px;
+    border: 1px solid black;
+    background-color: #262626;
+    margin-left: 0.3%;
+}
+.executed{
+    width: 150px;
+    height:64px;
+    border: 1px solid black;
+    background-color: #595959;
+    margin-left: 0.3%;
+}
+.comp{
+    width: 150px;
+    height:64px;
+    border: 1px solid black;
+    background-color: #595959;
+    margin-left: 0.3%;
+}
+
+.batches{
+margin:4%;
+display:flex;
+font-size:18px;
+color: white;
+text-align:center;
+height:7%;
+}
+.undo{
+    margin: 1%;
+    padding:7px;
+    width:130px;
+    height:40px;
+    border-radius: 8px;
+    background-color: #595959;
+    cursor:pointer;
+
+}
+.assign{
+    margin: 1%;
+    padding:7px;
+    width:138px;
+    height:40px;
+    border-radius: 8px;
+    background-color: #595959;
+    cursor:pointer;
+
+}
+.po{
+    margin: 1%;
+    padding:7px;
+    width:130px;
+    height:40px;
+    border-radius: 8px;
+    background-color: #D0CECF;
+    cursor:pointer;
+
+}
+.orders{
+    display:flex;
+    padding: 7px;
+ 
+}
+.exec-order{
+    font-weight: bolder;
+    padding: auto;
+    margin-right:9%;
+}
+.bached-by{
+    font-weight: bolder;
+    padding: auto;
+    margin-left:9%;
+}

@@ -1,0 +1,10 @@
+.table{
+   width:60vw;
+   height:35vh;
+   margin-top:1%;
+}
+.expand{
+    width:26px;
+    cursor: pointer;
+    
+}
